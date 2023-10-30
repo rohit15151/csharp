@@ -1,0 +1,122 @@
+{
+  "Users": [
+    {
+      "UserName": "rohit",
+      "Password": null,
+      "Id": 1
+    },
+    {
+      "UserName": "katya",
+      "Password": null,
+      "Id": 2
+    },
+    {
+      "UserName": "mika",
+      "Password": null,
+      "Id": 3
+    },
+    {
+      "UserName": "apurva",
+      "Password": null,
+      "Id": 4
+    },
+    {
+      "UserName": "tomas",
+      "Password": null,
+      "Id": 5
+    },
+    {
+      "UserName": "abc",
+      "Password": null,
+      "Id": 6
+    },
+    {
+      "UserName": "def",
+      "Password": null,
+      "Id": 7
+    },
+    {
+      "UserName": "shila",
+      "Password": "youthere",
+      "Id": 8
+    },
+    {
+      "UserName": "keyur",
+      "Password": "keyur",
+      "Id": 9
+    },
+    {
+      "UserName": "shriyan",
+      "Password": "shriyan",
+      "Id": 10
+    }
+  ],
+  "Posts": [
+    {
+      "Id": 1,
+      "Owner": {
+        "UserName": "rohit",
+        "Password": null,
+        "Id": 1
+      },
+      "Title": "Hi there",
+      "Body": "Can you check this",
+      "IsPrivate": false
+    },
+    {
+      "Id": 2,
+      "Owner": {
+        "UserName": "katya",
+        "Password": null,
+        "Id": 1
+      },
+      "Title": "Katyaji",
+      "Body": "Hi Hi Hi ",
+      "IsPrivate": false
+    },
+    {
+      "Id": 3,
+      "Owner": {
+        "UserName": "mika",
+        "Password": null,
+        "Id": 3
+      },
+      "Title": "Hey Mika",
+      "Body": "Check the trial",
+      "IsPrivate": false
+    },
+    {
+      "Id": 4,
+      "Owner": {
+        "UserName": "apurva",
+        "Password": null,
+        "Id": 7
+      },
+      "Title": "apurva",
+      "Body": "apurva",
+      "IsPrivate": false
+    },
+    {
+      "Id": 5,
+      "Owner": {
+        "UserName": "tomas",
+        "Password": "itstomas",
+        "Id": 8
+      },
+      "Title": "Tall",
+      "Body": "Bravo",
+      "IsPrivate": false
+    },
+    {
+      "Id": 6,
+      "Owner": {
+        "UserName": "abc",
+        "Password": null,
+        "Id": 3
+      },
+      "Title": "abc",
+      "Body": "abc",
+      "IsPrivate": false
+    }
+  ]
+}

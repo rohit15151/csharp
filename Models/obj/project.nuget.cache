@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "eP4en0oZufn69PDid7VgmRfYWKfMG3A+seBWqPkIZWQUBgDI7PC4p2wTGOv5pkZFXV5yh+I36Ok5jFes6Uklhw==",
+  "success": true,
+  "projectFilePath": "/Users/dominikakrullova/Desktop/Handin1/Models/Models.csproj",
+  "expectedPackageFiles": [
+    "/Users/dominikakrullova/.nuget/packages/microsoft.aspnetcore.authorization/7.0.13/microsoft.aspnetcore.authorization.7.0.13.nupkg.sha512",
+    "/Users/dominikakrullova/.nuget/packages/microsoft.aspnetcore.metadata/7.0.13/microsoft.aspnetcore.metadata.7.0.13.nupkg.sha512",
+    "/Users/dominikakrullova/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/dominikakrullova/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.1/microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "/Users/dominikakrullova/.nuget/packages/microsoft.extensions.options/7.0.1/microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "/Users/dominikakrullova/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

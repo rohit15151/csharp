@@ -1,0 +1,51 @@
+@page "/ViewPost/{id:int}"
+@using Models.DTOs
+@using Models
+@using HttpClients_.ClientInterfaces
+@using Microsoft.AspNetCore.Components
+@inject IPostService postService
+@inject IUserService userService
+@inject NavigationManager navMgr
+
+
+@if (post != null)
+{
+    <div>
+        <h3>@post.Title</h3>
+        <p>@post.Body</p>
+    </div>
+}
+else
+{
+    <p>Page not found.</p>
+}
+
+        
+                
+@code {
+    [Parameter]
+    public int Id { get; set; }
+        
+    private string msg = "";
+    private Post post;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            Console.WriteLine($"ID OF THE POST: {Id}");
+            post = await postService.GetByIdAsync(Id);
+            if (post == null)
+            {
+                msg = "Post not found.";
+                Console.WriteLine(msg);
+            }
+        }
+        catch (Exception e)
+        {
+            msg = e.Message;
+            Console.WriteLine(msg);
+        }
+    }
+
+}

@@ -1,0 +1,122 @@
+{
+  "Users": [
+    {
+      "UserName": "mika",
+      "Password": null,
+      "Id": 1
+    },
+    {
+      "UserName": "domka",
+      "Password": null,
+      "Id": 2
+    },
+    {
+      "UserName": "sdfghj",
+      "Password": null,
+      "Id": 3
+    },
+    {
+      "UserName": "ghj",
+      "Password": null,
+      "Id": 4
+    },
+    {
+      "UserName": "rghk",
+      "Password": null,
+      "Id": 5
+    },
+    {
+      "UserName": "jhgfds",
+      "Password": null,
+      "Id": 6
+    },
+    {
+      "UserName": "test",
+      "Password": null,
+      "Id": 7
+    },
+    {
+      "UserName": "tomino",
+      "Password": "hovnokleslo",
+      "Id": 8
+    },
+    {
+      "UserName": "ahoj",
+      "Password": "ahoj",
+      "Id": 9
+    },
+    {
+      "UserName": "ahoj1",
+      "Password": "ahoj1",
+      "Id": 10
+    }
+  ],
+  "Posts": [
+    {
+      "Id": 1,
+      "Owner": {
+        "UserName": "mika",
+        "Password": null,
+        "Id": 1
+      },
+      "Title": "ahoj mama",
+      "Body": "toto je pokus c 1",
+      "IsPrivate": false
+    },
+    {
+      "Id": 2,
+      "Owner": {
+        "UserName": "mika",
+        "Password": null,
+        "Id": 1
+      },
+      "Title": "ahoj",
+      "Body": "ahoj ahoj ahoj ",
+      "IsPrivate": false
+    },
+    {
+      "Id": 3,
+      "Owner": {
+        "UserName": "sdfghj",
+        "Password": null,
+        "Id": 3
+      },
+      "Title": "jhgfd",
+      "Body": "hgfds",
+      "IsPrivate": false
+    },
+    {
+      "Id": 4,
+      "Owner": {
+        "UserName": "test",
+        "Password": null,
+        "Id": 7
+      },
+      "Title": "test",
+      "Body": "test",
+      "IsPrivate": false
+    },
+    {
+      "Id": 5,
+      "Owner": {
+        "UserName": "tomino",
+        "Password": "hovnokleslo",
+        "Id": 8
+      },
+      "Title": "uzmi",
+      "Body": "ztohojebe",
+      "IsPrivate": false
+    },
+    {
+      "Id": 6,
+      "Owner": {
+        "UserName": "sdfghj",
+        "Password": null,
+        "Id": 3
+      },
+      "Title": "Toto je post",
+      "Body": "post123",
+      "IsPrivate": false
+    }
+  ]
+}
